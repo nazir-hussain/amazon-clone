@@ -2,7 +2,6 @@ import React from 'react';
 import Carousel from 'nuka-carousel';
 import Icon from '@mdi/react';
 import { mdiChevronLeft, mdiChevronRight } from '@mdi/js';
-
 import './Banner.scss';
 
 const banners = [
