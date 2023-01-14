@@ -4,6 +4,7 @@ export function calculatePriceDetails(priceDetails) {
     (basePrice * (100 - priceDetails.discount)) / 100,
     10,
   );
+  
   return {
     basePrice,
     finalPrice,
