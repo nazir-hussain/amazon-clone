@@ -5,6 +5,7 @@ export function calculatePriceDetails(priceDetails) {
     10,
   );
   
+  
   return {
     basePrice,
     finalPrice,
