@@ -7,7 +7,6 @@ import { useCartState } from 'cart-context';
 
 function Cart() {
   const { totalQuantity } = useCartState();
-
   return (
     <Link to="/cart" className="h-cart">
       <Icon path={mdiCartOutline} size={1.4} />
