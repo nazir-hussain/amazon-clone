@@ -46,6 +46,7 @@ export async function parseJsonResponse(response) {
  * @param {Object} [options] - `fetch` options other than `method` and `body`
  * @returns {Promise<{}>} As returned by {@link parseJsonResponse}
  */
+
 export async function apiRequest(method, path, body = null) {
   const options = { method };
   if (body && method !== 'GET') {
