@@ -56,5 +56,6 @@ export async function apiRequest(method, path, body = null) {
   const finalPath = API_BASE + path;
   const response = await fetch(finalPath, options);
 
+  
   return parseJsonResponse(response);
 }
